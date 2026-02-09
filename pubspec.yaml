@@ -46,6 +46,8 @@ dependencies:
   video_trimmer: ^5.0.0
   flutter_svg: ^2.2.3
   installed_apps: ^2.1.1
+  shared_preferences: ^2.5.4
+  android_intent_plus: ^6.0.0
 
 dev_dependencies:
   flutter_test:
