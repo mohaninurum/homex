@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "131926883117",
+    "project_id": "g-video-call",
+    "storage_bucket": "g-video-call.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131926883117:android:4e5442249b4aed8072b1a4",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_chat_direct"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYPqT-LwLcN9kk6n-WtAeZotIQ-0C_CGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
