@@ -48,6 +48,10 @@ dependencies:
   installed_apps: ^2.1.1
   shared_preferences: ^2.5.4
   android_intent_plus: ^6.0.0
+  fast_flutter_kit:
+    path: ../fast_flutter_kit
+  image_picker: ^1.2.1
+  google_ml_kit: ^0.21.0
 
 dev_dependencies:
   flutter_test:

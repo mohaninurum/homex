@@ -8,7 +8,9 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:whatsapp_chat_direct/adaptive_ui_core.dart';
 import 'package:whatsapp_chat_direct/app_launcher/app_launcher.dart';
 import 'package:whatsapp_chat_direct/audio_eq/equalizer_screen.dart';
+import 'package:whatsapp_chat_direct/custome_pain_cliper/custome_pain_cliper.dart';
 import 'package:whatsapp_chat_direct/firebase_options.dart';
+import 'package:whatsapp_chat_direct/text_style_copy/text_style_copy.dart';
 import 'package:whatsapp_chat_direct/video_call/JoinScreen.dart';
 import 'package:whatsapp_chat_direct/video_edit/video_edit.dart';
 
@@ -39,7 +41,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:  OpenWhatsapp(),
+      home:  CustomePainCliper(),
     );
   }
 }
@@ -126,6 +128,30 @@ class OpenWhatsapp extends StatelessWidget {
 
               },
               child: const Text("App launcher"),
+            ),
+            SizedBox(height: ui.h(50),),
+            ElevatedButton(
+              onPressed: () async {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) {
+                    return FontScannerPage();
+                  }),
+                );
+
+              },
+              child: const Text("fast dev"),
+            ),
+            SizedBox(height: ui.h(50),),
+            ElevatedButton(
+              onPressed: () async {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) {
+                    return CustomePainCliper();
+                  }),
+                );
+
+              },
+              child: const Text("paint"),
             ),
           ],
         ),
